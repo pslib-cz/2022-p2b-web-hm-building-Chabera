@@ -1,7 +1,101 @@
-.nav-link {
-    color: rgb(0, 0, 0);
+:root {
+    --primary-color: #EB6C27;
+    --bg: #FFFFFF;
+    --text: #3a3a3a;
+    --text-gray: #888888;
+}
+
+html {
+    font-family: 'Open Sans';
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    text-align: center;
+    color: white;
+}
+  
+.image-text {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    font-weight: 900;
+    font-size: 30px;
+}
+.image-text2 {
+    position: absolute;
+    bottom: 17px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 15px;
+}
+  
+.header-image {
+    max-width: 100%;
+    filter: brightness(65%);
+}
+
+.text__sluzby {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 60px;
+    color: var(--text);
+}
+
+.text-main {
+    margin-right: 0;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: var(--text);
+}
+
+.orange-text {
+    color: var(--primary-color);
+}
+
+.text-bottom {
+    font-size: 15px;
+    font-family: 'Inter';
+}
+
+.img-card {
+    max-width: 100%;
+    border-radius: 0px 0px 40px 0px;
+}
+
+.body__main {
+    text-align: left;
+    margin-left: 18px;
+    margin-right: 18px;
+    color: #2B2B2B;
+}
+
+.nadpis-card {
+    font-size: 0.7rem;
+}
+
+.button {
+    background-color: var (--primary-color);
+    color: var(--primary-color);
+    padding: 12px 40px;
+    text-align: center;
     text-decoration: none;
-    padding: 10px 20px;
     display: inline-block;
-    margin: 0px 10px;
+    font-size: 16px;
+    border: 2px dashed #EB6C27;
+    min-width: 170px;
   }
