@@ -96,7 +96,7 @@ body {
     font-size: 0.6rem;
 }
 
-.button {
+.button-orange-line {
     background-color: var (--primary-color);
     color: var(--primary-color);
     padding: 12px 18px;
@@ -117,6 +117,11 @@ body {
     max-width: 100%;
     border-radius: 0px 0px 0px 40px;
 }
+
+/*konec druhe karty*/
+
+/*zacatek duvera fotka*/
+
 
 .image-container2 {
     position: relative;
@@ -141,4 +146,21 @@ body {
 .header-image-2 {
     max-width: 100%;
     filter: brightness(35%);
+}
+
+.button-orange {
+    position: absolute;
+    left: 20px;
+    
+    /*pozice*/
+    background-color: var(--primary-color);
+    color: var(--bg);
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 150px;
+    font-weight: bold;
+    margin-bottom: 35px;
 }
