@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -40,7 +40,7 @@ body {
     right: 0;
     margin: auto;
     width: 100%;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 15px;
 }
   
@@ -116,4 +116,29 @@ body {
 .img-card2 {
     max-width: 100%;
     border-radius: 0px 0px 0px 40px;
+}
+
+.image-container2 {
+    position: relative;
+    text-align: center;
+    text-align: center;
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+
+.image-text2-2 {
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    font-weight: 100;
+    font-size: 15px;
+}
+  
+.header-image-2 {
+    max-width: 100%;
+    filter: brightness(35%);
 }
