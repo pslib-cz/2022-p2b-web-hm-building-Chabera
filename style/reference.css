@@ -1,0 +1,94 @@
+:root {
+    --primary-color: #EB6C27;
+    --bg: #FFFFFF;
+    --text: #3a3a3a;
+    --text-gray: #888888;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/*začátek stránky*/
+
+
+.reference-body {
+    color: var(--text);
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.text__reference {
+    text-align: left;
+}
+
+.nadpis-reference {
+    margin-top: 6rem;
+    font-weight: bold;
+}
+
+.popis-reference {
+    font-size: 0.85rem;
+}
+
+.galerie__reference {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--text);
+}
+
+.reference-img {
+    max-width: 100%;
+    margin-top: 2rem;
+}
+
+.reference-nadpis {
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.reference-text {
+    margin-top: 0;
+    font-size: 0.85rem;
+}
+
+/*FOOTER*/
+
+.footer__orange{
+    background-color: var(--primary-color);
+    color: var(--bg);
+    padding: 2rem;
+    padding-bottom: 0.6rem;
+}
+
+.footer-nadpis {
+    font-size: 1.3rem;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.footer-button {
+    background-color: var(--bg);
+    color: var(--bg);
+    padding: 17px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 150px;
+    font-weight: bold;
+    margin: 40px;
+    margin-top: 15px;
+    color: var(--primary-color);
+}
