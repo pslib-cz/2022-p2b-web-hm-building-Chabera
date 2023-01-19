@@ -171,9 +171,36 @@ body {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
+    color: var(--text);
 }
 
 .reference-img {
     max-width: 100%;
     margin-top: 2rem;
 }
+
+.reference-nadpis {
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.reference-text {
+    margin-top: 0;
+    font-size: 0.85rem;
+}
+
+.reference-button {
+    background-color: var(--primary-color);
+    color: var(--bg);
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 150px;
+    font-weight: bold;
+    margin: 40px;
+}
+
+/*konec referencí*/
