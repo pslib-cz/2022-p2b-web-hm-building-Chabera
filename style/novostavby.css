@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #EB6C27;
+    --bg: #FFFFFF;
+    --text: #3a3a3a;
+    --text-gray: #888888;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/*zacatek stranky*/
+
+
+.novostavby-body {
+    color: var(--text);
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 5rem;
+}
+
+.text__novostavby {
+    text-align: left;
+}
+
+.nadpis-novostavby {
+    margin-top: 6rem;
+    font-weight: bold;
+}
+
+.popis-novostavby {
+    font-size: 0.85rem;
+}
+
+.seznam ul{
+    text-align: left;
+    padding-left: 0;
+    margin-left: 18px;
+}
+
+.list {
+    color: var(--primary-color);
+}
+
+.text {
+    color: var(--text);
+}
