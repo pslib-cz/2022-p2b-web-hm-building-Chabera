@@ -123,7 +123,7 @@ body {
 /*zacatek duvera fotka*/
 
 
-.image-container2 {
+.image__container2 {
     position: relative;
     text-align: center;
     text-align: center;
@@ -151,6 +151,7 @@ body {
 .button-orange {
     position: absolute;
     left: 20px;
+    bottom: 20px;
     
     /*pozice*/
     background-color: var(--primary-color);
@@ -162,5 +163,17 @@ body {
     font-size: 16px;
     min-width: 150px;
     font-weight: bold;
-    margin-bottom: 35px;
+}
+
+/*zacatek galerie*/
+
+.galerie__reference {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.reference-img {
+    max-width: 100%;
+    margin-top: 2rem;
 }
