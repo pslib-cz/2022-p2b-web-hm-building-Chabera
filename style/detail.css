@@ -16,8 +16,21 @@ body {
 
 /*zacatek stranky*/
 
+.text__reference {
+    text-align: left;
+}
 
-.novostavby-body {
+.nadpis-reference {
+    margin-top: 6rem;
+    font-weight: bold;
+}
+
+.popis-reference {
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+}
+
+.detail__body{
     color: var(--text);
     text-align: center;
     margin-left: 18px;
@@ -25,31 +38,9 @@ body {
     margin-bottom: 5rem;
 }
 
-.text__novostavby {
-    text-align: left;
-}  
 
-.nadpis-novostavby {
-    margin-top: 6rem;
-    font-weight: bold;
-}
-
-.popis-novostavby {
-    font-size: 0.85rem;
-}
-
-.seznam ul{
-    text-align: left;
-    padding-left: 0;
-    margin-left: 18px;
-}
-
-.list {
-    color: var(--primary-color);
-}
-
-.text {
-    color: var(--text);
+.img {
+    max-width: 100%;
 }
 
 /*FOOTER*/
