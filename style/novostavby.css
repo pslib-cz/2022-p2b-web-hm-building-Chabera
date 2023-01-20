@@ -51,3 +51,36 @@ body {
 .text {
     color: var(--text);
 }
+
+/*FOOTER*/
+
+.footer__orange{
+    background-color: var(--primary-color);
+    color: var(--bg);
+    padding: 2rem;
+    padding-bottom: 0.6rem;
+}
+
+.footer-nadpis {
+    font-size: 1.3rem;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.footer-button {
+    background-color: var(--bg);
+    color: var(--bg);
+    padding: 17px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 150px;
+    font-weight: bold;
+    margin: 40px;
+    margin-top: 15px;
+    color: var(--primary-color);
+}
