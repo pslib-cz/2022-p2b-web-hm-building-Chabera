@@ -46,7 +46,7 @@ body {
   
 .header-image {
     max-width: 100%;
-    filter: brightness(65%);
+    filter: brightness(25%);
 }
 
 /*konec fotky headeru*/
