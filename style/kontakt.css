@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #EB6C27;
+    --bg: #FFFFFF;
+    --text: #3a3a3a;
+    --text-gray: #888888;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/*zacatek stranky*/
+
+.body__kontakty {
+    color: var(--text);
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 5rem;
+}
+
+.text__kontakty {
+    text-align: left;
+}  
+
+.nadpis-kontakty {
+    margin-top: 6rem;
+    font-weight: bold;
+}
+
+.popis-kontakty {
+    font-size: 0.85rem;
+}
+
+.img-kontakty {
+    width: 100%;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid var(--primary-color); 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+  }
