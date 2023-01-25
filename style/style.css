@@ -33,6 +33,7 @@ body {
     font-weight: 900;
     font-size: 30px;
 }
+
 .image-text2 {
     position: absolute;
     bottom: 17px;
@@ -74,6 +75,8 @@ body {
 .text-bottom {
     font-size: 15px;
 }
+
+
 
 /*konec textu*/
 
@@ -164,6 +167,8 @@ body {
     font-weight: bold;
 }
 
+
+
 /*zacatek galerie*/
 
 .galerie__reference {
@@ -239,3 +244,48 @@ body {
 }
 
 /*KONEC INDEXU*/
+@media (min-width: 768px) {
+    .image-text{
+        font-size: 7rem;
+        bottom: 300px;
+    }
+    
+    div.image-text2 {
+        font-size: 3rem;
+        bottom: 240px;
+    }
+
+    .text__sluzby {
+        text-align: center;
+    }
+
+    .text-main {
+        font-size: 3rem;
+    }
+
+    .text-bottom {
+        font-size: 2rem;
+    }
+    
+    .image-text2-2{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .galerie__reference{
+        display: flex;
+    }
+    
+    .reference-img {
+        width: 80%;
+    }
+
+    .footer-nadpis {
+        font-size: 4rem;
+    }
+
+    .footer-text {
+        font-size: 2rem;
+    }
+
+}
