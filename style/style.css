@@ -288,4 +288,20 @@ body {
         font-size: 2rem;
     }
 
+    .img-card {
+        width: 35%;
+    }
+
+    .img-card2 {
+        width: 35%;
+    }
+
+    .text-left-card {
+        width: 30%;
+    }
+
+    .left-card {
+        display: flex;
+        margin-bottom: 20px;
+    }
 }
