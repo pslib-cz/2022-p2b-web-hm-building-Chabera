@@ -106,3 +106,26 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+
+  @media (min-width: 768px) {
+    .nadpis-novostavby{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .novostavby-body {
+        margin-left: 12rem;
+    }
+
+    .footer-nadpis {
+        font-size: 3rem;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+    }
+
+    .seznam {
+        margin-left: 4rem;
+    }
+  }
