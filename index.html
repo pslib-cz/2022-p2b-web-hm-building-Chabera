@@ -15,11 +15,36 @@
 </head>
 <body>
 
-<div class="image-container">
-    <img class="header-image" src="./media/media/pageheader-1920w.jpg" alt="obrázek stavby">
-    <div class="image-text">HM Building.cz s.r.o.</div>
-    <div class="image-text2">liberecká stavební společnost</div>
-</div>
+    <header class="header">
+        <nav class="header__nav">
+                <a href="index.html"><img class="img-responsive" src="./media/media/logo.png"  alt="HM Building cz"></a>
+                <menu class="menu hamburger-menu hamburger-menu--hidden">
+                    <li><a href="./index.html" class="active">DOMŮ</a></li>
+                    <li><a href="#popis">SLUŽBY</a></li>
+                    <li><a href="./html/reference.html">REFERENCE</a></li>
+                    <li><a href="./html/onas.html">O NÁS</a></li>
+                    <li><a href="./html/kontakt.html">KONTAKTY</a></li>                
+                </menu>
+                <a class="hamburger" href="javascript:void(0)">menu</a>
+        </nav>
+        <div class="title">
+            <h1>HM Building.cz s.r.o.
+            <span>liberecká stavební společnost</span></h1>
+
+            <a></a>
+        </div>
+    </header>
+    <script>
+        const hamburgerButtons = document.querySelectorAll(".hamburger");
+        for (const btn of hamburgerButtons) {
+            btn.onclick = (event) => {
+                const menus = document.querySelectorAll(".hamburger-menu");
+                for (const menu of menus) {
+                    menu.classList.toggle("hamburger-menu--hidden");
+                }
+            }
+        }
+    </script>
 
 <div class="text__sluzby">
     <p class="text-main">Využijte škálu našich <span class="orange-text">služeb</span></p>
