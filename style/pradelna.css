@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #EB6C27;
+    --bg: #FFFFFF;
+    --text: #3a3a3a;
+    --text-gray: #888888;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/*zacatek stranky*/
+
+.pradelna-body {
+    color: var(--text);
+    text-align: left;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 5rem;
+}
+
+.text__pradelna {
+    text-align: left;
+}  
+
+.nadpis-pradelna {
+    margin-top: 6rem;
+    font-weight: bold;
+}
+
+.popis-pradelna{
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+}
+
+.pradelna-img {
+    max-width: 100%;
+}
+
+/*FOOTER*/
+
+.footer__orange{
+    background-color: var(--primary-color);
+    color: var(--bg);
+    padding: 2rem;
+    padding-bottom: 0.6rem;
+}
+
+.footer-nadpis {
+    font-size: 1.3rem;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+.footer-button {
+    background-color: var(--bg);
+    color: var(--bg);
+    padding: 17px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 150px;
+    font-weight: bold;
+    margin: 40px;
+    margin-top: 15px;
+    color: var(--primary-color);
+}
+
+/*NAVBAR*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+ @media (min-width: 768px) {
+    
+    .footer-nadpis {
+        font-size: 3rem;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+    }
+}
